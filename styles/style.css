@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /* width: 100%; */
+}
+
+body {
+    font-family: "Parkinsans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrapper header {
+    display: flex;
+    margin: 20px;
+}
+
+.wrapper header .title {
+    margin-right: 40px;
+}
+
+.wrapper header .hex {
+    margin-left: 40px;
+}
+
+.wrapper main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper main .main-text {
+    background-color: rgb(137, 93, 93);
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 15px;
+    width: 100%;
+    width: 400px;
+    font-weight: 600;
+}
+
+.wrapper main button {
+    width: 100%;
+    max-width: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    background-color: rgb(137, 93, 93);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* .wrapper main .main-text .color {
+    color: #f1f5f8;
+} */
